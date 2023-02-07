@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Airbnb_bold";
+    src: url("fonts/AirbnbCereal_W_Bd.otf");
+    }
+@font-face {
+    font-family: "Airbnb_light";
+    src: url("fonts/AirbnbCereal_W_Lt.otf");
+}
+
+/* COLOR REFERENCES
+DARK BLUE: #1A2238
+LAVENDER: #9DAAF2
+ORANGE: #FF6A3D
+YELLOW: #F4DB7D
+*/
+
+* {
+    font-family: "Airbnb_bold", sans-serif;
+    background-color: #1A2238;
+    color: white;
+}
+
+
+main {
+    text-align: center;
+}
+.main-text {
+    color: white;
+    margin-top: 40vh;
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+.orange-highlight {
+    color: #ff6a3d;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 0 30px 0 30px;
+    letter-spacing: 1px;
+    color: #1A2238;
+}
+
+button:hover {
+    background-color: #FF6A3D;
+    color: white;
+}
+
+.hero-buttons:first-child {
+    margin-right: 100px;
+}
+
+.secondary-text {
+    font-family:"Airbnb_light";
+    font-size: 1.3rem;
+    letter-spacing: 1.3px;
+}
+
+.wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
+
+.placeholder {
+    background-color: white;
+    color:#1A2238;
+}
+
+.grouped-items {
+    background-color: white;
+    max-width: 100%;
+}
+
+.comparison-item {
+    display: block;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.comparison-item p, .comparison-item h1 {
+    background-color: white;
+    color:#1A2238;
+}
+/* change to make text one div and turn each of them into block elements*/
+
+.comparison-item img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #1A2238;
+}
+
+
+.comparison-item-text {
+    background-color: white;
+    max-width: 50%;
+}
+
+.comparison-item-wrap {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+}
